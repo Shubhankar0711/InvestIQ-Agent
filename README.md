@@ -1,49 +1,89 @@
 # 💹 InvestIQ Agent
 
-> An AI-powered investment assistant that helps users analyze stocks, build diversified portfolios, understand market trends, and make smarter investment decisions.
-
----
-
-## 🚀 Overview
-
-InvestIQ Agent is an intelligent AI-powered investment platform designed to simplify investing for beginners and experienced investors alike. The application provides personalized investment insights, portfolio recommendations, market analysis, and financial guidance through an interactive AI assistant.
-
-> **Note:** This project is intended for educational and research purposes only. It does not provide financial advice.
+An AI-powered Investment Analysis Agent that helps users analyze financial performance, compare companies, identify investment risks, and generate structured investment insights through an intelligent conversational interface.
 
 ---
 
 ## ✨ Features
 
-- 🤖 AI-powered investment assistant
-- 📈 Stock analysis and insights
-- 💼 Personalized portfolio recommendations
-- 📊 Market trend analysis
-- 💬 Natural language chat interface
-- 🔍 Company and stock research
-- 📉 Risk assessment
-- 📱 Responsive UI
-- 🔒 Secure user authentication
-- ⚡ Fast and intuitive user experience
+- 🤖 AI-powered Investment Analysis
+- 📊 Financial Performance Evaluation
+- 📈 Company Comparison
+- ⚠️ Investment Risk Identification
+- 💬 Interactive AI Chat Interface
+- ⚡ Sequential Investment Analysis
+- 🎯 Quick Start Prompts
+- 📱 Responsive Single Page Design
+- 🎨 Modern Clean UI
+- 🔒 IBM watsonx Orchestrate Integration
 
 ---
 
-## 🛠 Tech Stack
+## 🖥️ Demo
 
-### Frontend
-- React.js
-- Vite
-- Tailwind CSS
-- Axios
+The application provides an intuitive interface where users can interact with an AI investment analyst by asking natural language questions such as:
 
-### Backend
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- JWT Authentication
+- Which company has the strongest financial performance?
+- Compare the financial performance of multiple companies.
+- Identify investment risks.
+- Generate structured investment insights.
 
-### AI
-- Google Gemini API / OpenAI API
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| HTML5 | Structure |
+| CSS3 | Styling |
+| JavaScript | Functionality |
+| IBM watsonx Orchestrate | AI Agent |
+| IBM watsonx Assistant | Conversational AI |
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Shubhankar0711/InvestIQ-Agent.git
+```
+
+### Navigate to the project
+
+```bash
+cd InvestIQ-Agent
+```
+
+### Run the project
+
+Open the project in your preferred development environment or serve it using a local server.
+
+Example:
+
+```bash
+Live Server (VS Code)
+```
+
+or
+
+```bash
+python -m http.server
+```
+
+---
+
+## 💬 Example Questions
+
+Try asking the AI:
+
+- Which company has the strongest financial performance?
+- Compare Company A and Company B.
+- Identify investment risks for this company.
+- Generate a financial analysis report.
+- Summarize investment opportunities.
+- Explain the financial health of Company A.
 
 ---
 
@@ -52,140 +92,41 @@ InvestIQ Agent is an intelligent AI-powered investment platform designed to simp
 ```
 InvestIQ-Agent/
 │
-├── client/
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-├── server/
-│   ├── controllers/
-│   ├── routes/
-│   ├── models/
-│   ├── middleware/
-│   ├── config/
-│   └── package.json
-│
+├── assets/
+├── css/
+├── js/
+├── screenshots/
+├── index.html
 ├── README.md
-└── .env
-```
-
----
-
-## ⚙️ Installation
-
-### Clone the repository
-
-```bash
-git clone https://github.com/Shubhankar0711/InvestIQ-Agent.git
-```
-
-### Navigate into the project
-
-```bash
-cd InvestIQ-Agent
-```
-
-### Install dependencies
-
-#### Frontend
-
-```bash
-cd client
-npm install
-```
-
-#### Backend
-
-```bash
-cd ../server
-npm install
-```
-
----
-
-## 🔑 Environment Variables
-
-Create a `.env` file inside the server folder.
-
-```env
-PORT=5000
-
-MONGODB_URI=your_mongodb_connection
-
-JWT_SECRET=your_secret_key
-
-GEMINI_API_KEY=your_api_key
-```
-
----
-
-## ▶️ Run the Project
-
-### Backend
-
-```bash
-cd server
-npm run dev
-```
-
-### Frontend
-
-```bash
-cd client
-npm run dev
-```
-
-The application will start on:
-
-```
-Frontend : http://localhost:5173
-
-Backend : http://localhost:5000
-```
-
----
-
-## 📸 Screenshots
-
-Add your screenshots here.
-
-```
-Home Page
-
-Dashboard
-
-AI Chat
-
-Portfolio
-
-Stock Analysis
+└── LICENSE
 ```
 
 ---
 
 ## 🎯 Future Improvements
 
-- Live stock market data
-- Portfolio performance charts
-- Watchlist
-- Investment alerts
-- Mutual fund recommendations
-- Cryptocurrency support
-- News sentiment analysis
-- Voice-enabled AI assistant
-- PDF investment reports
+- Live Stock Market Data
+- Portfolio Recommendations
+- Interactive Financial Charts
+- Company Search
+- Investment Watchlist
+- Dark Mode
+- User Authentication
+- PDF Report Generation
+- Real-time Market News
+- Voice-enabled AI Assistant
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome!
+Contributions are welcome.
 
 1. Fork the repository
 2. Create your feature branch
 
 ```bash
-git checkout -b feature/NewFeature
+git checkout -b feature/new-feature
 ```
 
 3. Commit your changes
@@ -197,16 +138,10 @@ git commit -m "Added new feature"
 4. Push to GitHub
 
 ```bash
-git push origin feature/NewFeature
+git push origin feature/new-feature
 ```
 
 5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 
@@ -218,8 +153,12 @@ GitHub: https://github.com/Shubhankar0711
 
 ---
 
-## ⭐ Support
+## ⭐ Show Your Support
 
-If you found this project helpful, please consider giving it a ⭐ on GitHub.
+If you found this project useful, consider giving it a ⭐ on GitHub.
 
-Happy Investing! 📈💰
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
